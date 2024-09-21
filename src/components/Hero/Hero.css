@@ -126,7 +126,7 @@
 
 @media screen and (max-width: 600px){
     .hero{
-        padding: 0 2rem;
+        padding: 0 1rem;
     }
 
     .hero-left h1{
@@ -142,7 +142,7 @@
     }
 
     .hero-right img{
-        width: 200px;
+        width: 300px;
     }
 
     .hero-btn{

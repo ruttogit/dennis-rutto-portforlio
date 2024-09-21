@@ -57,7 +57,6 @@
     align-items: center;
     gap: 2rem;
     justify-content: center;
-    /* flex-wrap: wrap; For responsiveness */
 }
 
 .skills-card img{
@@ -96,12 +95,12 @@
         gap: 0.2rem;
     }
     .skills-card{
-        padding: 1rem 1.5rem;
+        padding: 1rem 1rem;
         height: 100px;
-        width: 50px;
+        width: 70px;
     }
     .skills-card img{
-        width: 20px;
+        width: 35px;
     }
     .skills-card p{
         font-size: 10px;
