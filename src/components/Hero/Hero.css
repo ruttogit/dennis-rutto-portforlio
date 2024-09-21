@@ -1,0 +1,131 @@
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 5rem;
+    /* align-items: center; */
+}
+
+.hero h1{
+    font-size: 3.7rem;
+    font-weight: 800;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1.5s ease forwards;
+}
+
+.hero h2{
+    font-size: 40px;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1.5s ease forwards;
+}
+
+.hero-left{
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.hero-left p{
+    max-width: 76%;
+    font-size: 20px;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.hero-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-right img{
+    animation: swing ease-in-out 7s infinite; 
+}
+
+
+/* @keyframes swing { 
+    20% { transform: rotate(15deg); } 
+    40% { transform: rotate(-10deg); } 
+    60% { transform: rotate(5deg); } 
+    80% { transform: rotate(-5deg); } 
+    100% { transform: rotate(0deg); } 
+ }  */
+
+ @keyframes swing {
+    0% { transform: rotate(-6deg); }
+    60% { transform: rotate(0deg); }
+    100%{transform: rotate(-6deg);}
+}
+
+.subtext {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1.5s ease forwards;
+    animation-delay: 0.5s; /* Delay for subtext */
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px); /* Start slightly below */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* End at the normal position */
+    }
+}
+
+
+
+@media screen and (max-width: 1100px){
+    .hero-left h1{
+        font-size: 3rem;
+    }
+
+    .hero-left h2{
+        font-size: 2.2rem;
+    }
+
+    .hero-left p{
+        font-size: 18px;
+    }
+
+    .hero-right img{
+        width: 400px;
+    }
+
+    .hero-btn{
+        width: 150px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .hero{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 750px){
+
+
+    .hero-left h1{
+        font-size: 2.5rem;
+    }
+
+    .hero-left h2{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .hero{
+        padding: 0 2rem;
+    }
+}

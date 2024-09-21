@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "Inter";
+  src: url(./fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+body{
+  font-family: "Inter", system-ui;
+  background: #222333;
+  color: #ffffff;
+}
+
+
+/* .btn{
+  font-size: 20px;
+  padding: 0.7rem 3rem;
+  background: transparent;
+  border: 1px solid #141DEA;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 200;
+  cursor: pointer;
+} */
+
+.special{
+  color: #141DEA;
+}
+
+.heading{
+  text-align: center;
+}
+
+
+
+.wrapper{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  border: 2px solid #141DEA;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  background: transparent;
+  cursor: pointer;
+}
+
+button span{
+  position: relative;
+  z-index: 2;
+}
+
+button:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #141DEA;
+  transition: all .35s;
+  z-index: 0;
+}
+
+button:hover{
+  color: #fff;
+}
+
+button:hover:after{
+  width: 100%;
+}
+
+.inimated-img{
+  scale: .8;
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  animation-range: 250px 500px;
+}
+
+@keyframes fade-in {
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}
+

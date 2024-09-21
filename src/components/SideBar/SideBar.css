@@ -1,0 +1,62 @@
+.side-bar{
+    max-width: 101px;
+    height: 340px;
+    background: #3D3E56;
+    padding: 2rem 1rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: fixed;
+    top: calc(50vh - 170px);
+    z-index: 100;
+    opacity: 0; /* Initially hidden */
+    transform: translateX(-100%); /* Slide out of view */
+    animation: slideIn 1s ease forwards 2s; /* 3s delay before animating */
+
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+.sidebar-icons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.sidebar-icons img{
+    cursor: pointer;
+    width: 30px;
+}
+
+@media screen and (max-width: 750px){
+    .side-bar{
+        width: 100%;
+        max-height: 51px;
+        top: 0rem;
+        right: 0;
+        left: 0;
+        padding: 0;
+        max-width: none;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 20px;
+        border-radius: 0;
+        justify-content: center;
+    }
+
+    .sidebar-icons{
+        padding: 0.5rem;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
