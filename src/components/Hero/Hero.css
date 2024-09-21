@@ -128,4 +128,25 @@
     .hero{
         padding: 0 2rem;
     }
+
+    .hero-left h1{
+        font-size: 2rem;
+    }
+
+    .hero-left h2{
+        font-size: 1.1rem;
+    }
+
+    .hero p{
+        font-size: 14px;
+    }
+
+    .hero-right img{
+        width: 200px;
+    }
+
+    .hero-btn{
+        font-size: 12px;
+        width: 120px;
+    }
 }

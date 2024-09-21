@@ -85,6 +85,9 @@
         background: transparent;
         border: 1px solid #ffffff;
     }
+    .projects{
+        font-size: 1rem;
+    }
     
     .card-project{
         height: 150px;
@@ -102,5 +105,43 @@
     .projects-btn{
         margin-top: 3.5rem;
     }
+
+}
+
+@media screen and (max-width: 600px){
+    .projects h1{
+        font-size: 1.7rem;
+    }
+
+    .projects-card-wrapper{
+        margin-top: 2rem;
+    }
+
+    .card-contain{
+        height: 150px;
+        width: 250px;
+        background: transparent;
+        border: 1px solid #ffffff;
+    }
+    
+    .card-project{
+        height: 150px;
+        width: 250px;
+        background: #ffffff;
+        transform: translate(20px,20px);
+        transition: 0.4s;
+    }
+
+    .card-project img{
+        object-fit: contain;
+        width: 250px;
+    }
+
+    .projects-btn{
+        margin-top: 1rem;
+        font-size: 13px;
+        width: 90px;
+    }
+
 
 }

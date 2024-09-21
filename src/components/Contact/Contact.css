@@ -55,7 +55,7 @@
 
 .contact-right{
     padding-left: 5rem;
-    
+    width: 100%;
 }
 
 
@@ -109,10 +109,40 @@ textarea{
 
     .left-contact{
         margin: 0;
+        padding: 1rem 2rem;
+        border-radius: 20px;
 
     }
 
     .contact-right{
         padding: 0;
     }
+}
+
+
+@media screen and (max-width: 600px){
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    form input, textarea{
+        width: 90%;
+    }
+    .contact{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        /* padding: 0 4rem; */
+    }
+
+    .contact-right{
+        padding-bottom: 2rem;
+    }
+
+    form button{
+        width: 90%;
+    }
+
 }

@@ -60,3 +60,13 @@
         place-items: center;
     }
 }
+
+@media screen and (max-width: 600px){
+    .services-container{
+        gap: 0;
+    }
+
+    .services-container h1{
+        font-size: 1.7rem;
+    }
+}

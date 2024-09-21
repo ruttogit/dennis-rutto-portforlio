@@ -48,8 +48,9 @@ function Contact() {
                 <input type="text" placeholder='Email'/>
                 <input type="text" placeholder='Phone Number'/>
                 <textarea name="message" id="" placeholder='Message'></textarea>
+                <button className='btn contact-btn'>Send</button>
             </form>
-            <button className='btn'>Send</button>
+            
         </div>
     </div>
   )

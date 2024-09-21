@@ -69,9 +69,42 @@
     100%{ opacity: 0; }
 }
 
-@media screen and (max-width: 750px){
-    .row {
+@media screen and (max-width: 1050px){
+    /* .row {
        flex-direction: column;
+    } */
+
+    .skills-card{
+        width: 20px; /* 5 cards in the first row */
+        max-height: 90px;
+
+    }
+    .skills-card img{
+        max-width: 50px;
+    }
+    .row{
+        gap: 1rem;
     }
 
+    .container{
+        gap: 1rem;
+    }
+
+}
+@media screen and (max-width: 600px){
+    .container{
+        gap: 0.2rem;
+    }
+    .skills-card{
+        padding: 1rem 1.5rem;
+        height: 100px;
+        width: 50px;
+    }
+    .skills-card img{
+        width: 20px;
+    }
+    .skills-card p{
+        font-size: 10px;
+        display: none;
+    }
 }

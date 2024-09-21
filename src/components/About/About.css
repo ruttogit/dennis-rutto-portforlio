@@ -98,4 +98,8 @@
     .left-about img{
         width: 200px;
     }
+
+    .about-container{
+        margin: 1rem;
+    }
 }
