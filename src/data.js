@@ -48,7 +48,7 @@ export const projects = [
         id: 3,
         image: gyme,
         link: 'https://fitness-web-omega.vercel.app/',
-        codeLink: 'https://github.com/ruttogit/nailpolish.git'
+        codeLink: 'https://github.com/ruttogit/Fitness-web.git'
 
     },
     {
