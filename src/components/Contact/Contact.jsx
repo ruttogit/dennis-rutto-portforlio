@@ -39,9 +39,9 @@ function Contact() {
       setResult(data.message);
     }
   };
-
+  
   return (
-    <div className='contact' id='contact'>
+    <div className='contact inimated-img' id='contact'>
         <div className="left-contact">
             <h3>Get in touch with Us</h3>
             <div className="contact-icons">
