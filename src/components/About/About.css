@@ -102,4 +102,12 @@
     .about-container{
         margin: 1rem;
     }
+
+    .right-about p{
+        font-size: 14px;
+    }
+
+    .right-about{
+        font-size: 25px;
+    }
 }

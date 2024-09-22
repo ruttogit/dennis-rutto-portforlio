@@ -4,8 +4,8 @@ import './TopNavBar.css'
 function TopNavBar() {
   return (
     <div className='nav-top'>
-        <h1>DENNIS RUTTO</h1>
-        <button className='btn'>Hire Me</button>
+        <a href="#home"><h1>DENNIS RUTTO</h1></a>
+        <a href="#contact"><button className='btn'>Hire Me</button></a>
     </div>
   )
 }

@@ -36,6 +36,10 @@
 .sidebar-icons img{
     cursor: pointer;
     width: 30px;
+    transition: 0.4s;
+}
+.sidebar-icons img:hover{
+    transform: scale(1.2);
 }
 
 @media screen and (max-width: 750px){

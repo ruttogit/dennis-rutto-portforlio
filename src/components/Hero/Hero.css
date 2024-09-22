@@ -70,6 +70,12 @@
     animation-delay: 0.5s; /* Delay for subtext */
 }
 
+.hero-btn{
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1.7s ease forwards;
+}
+
 @keyframes fadeInUp {
     0% {
         opacity: 0;

@@ -10,6 +10,8 @@ import responsive from '../../icons/responsive.svg'
 import './Skills.css'
 function Skills() {
   return (
+    <>
+      <h1 className='heading'>My <span className='special'>Skills</span></h1>
         <div class="container">
           <div class="row">
               <div class="skills-card">
@@ -54,6 +56,7 @@ function Skills() {
               </div>
           </div>
       </div>
+      </>
   )
 }
 

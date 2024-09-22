@@ -33,6 +33,14 @@
     gap: 0.5rem;
 }
 
+.icon-cont a{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: #000000;
+}
+
 .icon-cont img{
     cursor: pointer;
     width: 30px;
@@ -82,10 +90,11 @@ form input::placeholder{
 
 form textarea::placeholder{
     font-size: 17px;
-    color: #ffffff;
+    font-weight: 300;
     color: #b3b3b3;
     font-family: 'inter';
 }
+
 
 textarea{
     padding-top: 0.5rem;

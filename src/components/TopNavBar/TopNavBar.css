@@ -11,6 +11,11 @@
     font-size: 2.2rem;
 }
 
+.nav-top a{
+    color: #ffff;
+    text-decoration: none;
+}
+
 
 @media screen and (max-width: 750px){
     .nav-top{

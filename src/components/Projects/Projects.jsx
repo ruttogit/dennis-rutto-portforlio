@@ -14,7 +14,8 @@ function Projects() {
                             </div>
                         </div>
                         <div className="projects-butons">
-                          <button className='btn projects-btn'>View Live</button>
+                          <a href={item.link} target="_blank" rel="noopener noreferrer"> <button className='btn projects-btn'>View Live</button></a>
+                         
                           <button className='btn projects-btn'>View Code</button>
                         </div>
                     </div> 

@@ -34,18 +34,23 @@ export const service = [
 export const projects = [
     {
         id: 1,
-        image: sample1
+        image: sample1,
+        link:  'https://nail-polish-den.vercel.app/'
     },
     {
         id: 2,
-        image: ecormerce
+        image: ecormerce,
+        link: 'https://e-commerce-shoe-web.vercel.app/'
     },
     {
         id: 3,
-        image: gyme
+        image: gyme,
+        link: 'https://fitness-web-omega.vercel.app/'
+
     },
     {
         id: 4,
-        image: weather
+        image: weather,
+        link: '#'
     }
 ]
