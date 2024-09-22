@@ -35,22 +35,26 @@ export const projects = [
     {
         id: 1,
         image: sample1,
-        link:  'https://nail-polish-den.vercel.app/'
+        link:  'https://nail-polish-den.vercel.app/',
+        codeLink: 'https://github.com/ruttogit/Nail-polish.git'
     },
     {
         id: 2,
         image: ecormerce,
-        link: 'https://e-commerce-shoe-web.vercel.app/'
+        link: 'https://e-commerce-shoe-web.vercel.app/',
+        codeLink: 'https://github.com/ruttogit/E-commerce-shoe-web.git'
     },
     {
         id: 3,
         image: gyme,
-        link: 'https://fitness-web-omega.vercel.app/'
+        link: 'https://fitness-web-omega.vercel.app/',
+        codeLink: 'https://github.com/ruttogit/nailpolish.git'
 
     },
     {
         id: 4,
         image: weather,
-        link: '#'
+        link: '#',
+        codeLink: '#'
     }
 ]
