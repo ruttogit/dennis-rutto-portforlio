@@ -61,7 +61,7 @@ function Contact() {
                     <a href="https://www.facebook.com/profile.php?id=100091280856188" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="facebook" /></a>
                     <a href="https://www.instagram.com/rutto7862/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="instagram" /></a>
                     <a href="https://www.linkedin.com/in/dennis-kipkoech-9b3549272/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="linkedin" /></a>
-                    <a href="http://" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" /></a>
+                    <a href="https://github.com/ruttogit" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" /></a>
                 </div>
 
             </div>

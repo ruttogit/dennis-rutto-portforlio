@@ -12,7 +12,7 @@ function Hero() {
             <p className='subtext'>I am a passionate and motivated Front-End Developer with one year of experience in creating dynamic and responsive web applications.</p>
             <div className="hero-buttons">
                 <a href="#contact"><button className='btn hero-btn'>Hire Me</button></a>
-                <a href={resume} download=''><button className='btn hero-btn'>Download CV</button></a>
+                <a href={resume} download=''><button className='btn hero-btn'>Resume</button></a>
             </div>
         </div>
         <div className="hero-right">
