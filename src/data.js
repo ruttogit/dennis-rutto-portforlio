@@ -54,7 +54,7 @@ export const projects = [
     {
         id: 4,
         image: weather,
-        link: '#',
-        codeLink: '#'
+        link: 'https://dennis-weather-app.netlify.app/',
+        codeLink: 'https://github.com/ruttogit/weather-app.git'
     }
 ]

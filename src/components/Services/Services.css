@@ -16,7 +16,8 @@
 .card{
     max-width: 350px;
     min-height: 450px;
-    background: #3D3E56;
+    background: transparent;
+    border: 1px solid #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
